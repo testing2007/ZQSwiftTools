@@ -15,7 +15,7 @@ extension UIView {
         
         return self
     }
-    
+     
     public func setBorder(_ border:CGFloat, color: UIColor) -> Self {
         self.layer.borderWidth = border
         self.layer.borderColor = color.cgColor

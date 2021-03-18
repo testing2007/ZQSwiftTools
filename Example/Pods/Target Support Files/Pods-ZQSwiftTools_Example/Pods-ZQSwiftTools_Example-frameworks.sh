@@ -197,9 +197,23 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDau/CaamDau.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDauAppDelegate/CaamDauAppDelegate.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDauCompatible/CaamDauCompatible.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDauExtension/CaamDauExtension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDauForm/CaamDauForm.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDauRouter/CaamDauRouter.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDauValue/CaamDauValue.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZQSwiftTools/ZQSwiftTools.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDau/CaamDau.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDauAppDelegate/CaamDauAppDelegate.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDauCompatible/CaamDauCompatible.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDauExtension/CaamDauExtension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDauForm/CaamDauForm.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDauRouter/CaamDauRouter.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CaamDauValue/CaamDauValue.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZQSwiftTools/ZQSwiftTools.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

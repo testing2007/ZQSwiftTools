@@ -1,16 +1,60 @@
 PODS:
+  - CaamDau (2.0.0):
+    - CaamDau/Core (= 2.0.0)
+  - CaamDau/AppDelegate (2.0.0):
+    - CaamDauAppDelegate
+  - CaamDau/Core (2.0.0):
+    - CaamDau/AppDelegate
+    - CaamDau/Extension
+    - CaamDau/Form
+    - CaamDau/Router
+  - CaamDau/Extension (2.0.0):
+    - CaamDauExtension
+  - CaamDau/Form (2.0.0):
+    - CaamDauForm
+  - CaamDau/Router (2.0.0):
+    - CaamDauRouter
+  - CaamDauAppDelegate (2.0.0)
+  - CaamDauCompatible (2.0.0)
+  - CaamDauExtension (2.0.0):
+    - CaamDauCompatible
+    - CaamDauValue
+  - CaamDauForm (2.1.0):
+    - CaamDauForm/Core (= 2.1.0)
+  - CaamDauForm/Core (2.1.0):
+    - CaamDauExtension
+  - CaamDauRouter (2.0.0)
+  - CaamDauValue (2.1.0)
   - ZQSwiftTools (0.1.0)
 
 DEPENDENCIES:
+  - CaamDau (~> 2.0.0)
   - ZQSwiftTools (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CaamDau
+    - CaamDauAppDelegate
+    - CaamDauCompatible
+    - CaamDauExtension
+    - CaamDauForm
+    - CaamDauRouter
+    - CaamDauValue
 
 EXTERNAL SOURCES:
   ZQSwiftTools:
     :path: "../"
 
 SPEC CHECKSUMS:
+  CaamDau: 605a6ff803fb8878474e9920840c37248548b0c3
+  CaamDauAppDelegate: e41b9495936dd126196b2a3186e96904ccf5e141
+  CaamDauCompatible: 37acd06ba5ff8e10b44ac54a0d05be31ae7182ad
+  CaamDauExtension: fe072e2ba27b0ba04f6d44d2c28aea4279a28d91
+  CaamDauForm: 20808bbf89b30bd50b144122c55df7c4aa9ce264
+  CaamDauRouter: 657006706e066223359e11bd3209a03529487531
+  CaamDauValue: ca736d52785ae552157ada4048ff33ac5c6a1f21
   ZQSwiftTools: 01f37eb7642df8b7ea562e9e3799c5d45850ed0d
 
-PODFILE CHECKSUM: 4deeb6660677f0454d3d44c8d2aea768bb2591da
+PODFILE CHECKSUM: 1e3883f0f69cc143ddcd8adebe567e1a18e20857
 
 COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module CaamDau {
+  umbrella header "CaamDau-umbrella.h"
+
+  export *
+  module * { export * }
+}

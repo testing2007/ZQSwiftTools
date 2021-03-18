@@ -1,7 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZQSwiftTools"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CaamDau" "${PODS_CONFIGURATION_BUILD_DIR}/CaamDauAppDelegate" "${PODS_CONFIGURATION_BUILD_DIR}/CaamDauCompatible" "${PODS_CONFIGURATION_BUILD_DIR}/CaamDauExtension" "${PODS_CONFIGURATION_BUILD_DIR}/CaamDauForm" "${PODS_CONFIGURATION_BUILD_DIR}/CaamDauRouter" "${PODS_CONFIGURATION_BUILD_DIR}/CaamDauValue" "${PODS_CONFIGURATION_BUILD_DIR}/ZQSwiftTools"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZQSwiftTools/ZQSwiftTools.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "ZQSwiftTools"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CaamDau/CaamDau.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CaamDauAppDelegate/CaamDauAppDelegate.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CaamDauCompatible/CaamDauCompatible.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CaamDauExtension/CaamDauExtension.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CaamDauForm/CaamDauForm.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CaamDauRouter/CaamDauRouter.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CaamDauValue/CaamDauValue.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ZQSwiftTools/ZQSwiftTools.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "CaamDau" -framework "CaamDauAppDelegate" -framework "CaamDauCompatible" -framework "CaamDauExtension" -framework "CaamDauForm" -framework "CaamDauRouter" -framework "CaamDauValue" -framework "Foundation" -framework "UIKit" -framework "ZQSwiftTools"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

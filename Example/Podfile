@@ -6,10 +6,10 @@ platform :ios, '9.0'
 
 target 'ZQSwiftTools_Example' do
   pod 'ZQSwiftTools', :path => '../'
-
+  pod 'CaamDau', '~> 2.0.0'
+  
   target 'ZQSwiftTools_Tests' do
     inherit! :search_paths
-
-    
   end
+  
 end

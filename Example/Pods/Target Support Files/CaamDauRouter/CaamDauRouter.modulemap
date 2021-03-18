@@ -1,0 +1,6 @@
+framework module CaamDauRouter {
+  umbrella header "CaamDauRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

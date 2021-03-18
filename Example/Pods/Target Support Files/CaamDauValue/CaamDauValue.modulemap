@@ -1,0 +1,6 @@
+framework module CaamDauValue {
+  umbrella header "CaamDauValue-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -212,10 +212,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NVB39GCUUC;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NVB39GCUUC;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -291,10 +294,24 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZQSwiftTools_Example/Pods-ZQSwiftTools_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CaamDau/CaamDau.framework",
+				"${BUILT_PRODUCTS_DIR}/CaamDauAppDelegate/CaamDauAppDelegate.framework",
+				"${BUILT_PRODUCTS_DIR}/CaamDauCompatible/CaamDauCompatible.framework",
+				"${BUILT_PRODUCTS_DIR}/CaamDauExtension/CaamDauExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/CaamDauForm/CaamDauForm.framework",
+				"${BUILT_PRODUCTS_DIR}/CaamDauRouter/CaamDauRouter.framework",
+				"${BUILT_PRODUCTS_DIR}/CaamDauValue/CaamDauValue.framework",
 				"${BUILT_PRODUCTS_DIR}/ZQSwiftTools/ZQSwiftTools.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CaamDau.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CaamDauAppDelegate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CaamDauCompatible.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CaamDauExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CaamDauForm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CaamDauRouter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CaamDauValue.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZQSwiftTools.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,11 +495,15 @@
 			baseConfigurationReference = D61E783CEA7DBDFBD8A11103 /* Pods-ZQSwiftTools_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVB39GCUUC;
 				INFOPLIST_FILE = ZQSwiftTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -493,11 +514,15 @@
 			baseConfigurationReference = 13F541B5E4E4918218699E23 /* Pods-ZQSwiftTools_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVB39GCUUC;
 				INFOPLIST_FILE = ZQSwiftTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -507,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C6B9D6D8617A97621B01101 /* Pods-ZQSwiftTools_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = NVB39GCUUC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +555,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5F97B2A5B04790BFD019EC72 /* Pods-ZQSwiftTools_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = NVB39GCUUC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

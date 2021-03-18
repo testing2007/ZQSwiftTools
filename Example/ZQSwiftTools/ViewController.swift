@@ -9,6 +9,7 @@
 import UIKit
 import ZQSwiftTools
 
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var btn: UIButton!
@@ -17,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        _ = btn.setCorner(22)
+        _ = btn.setCorner(5).setBorder(2, color: UIColor.orange)
     }
 
     override func didReceiveMemoryWarning() {

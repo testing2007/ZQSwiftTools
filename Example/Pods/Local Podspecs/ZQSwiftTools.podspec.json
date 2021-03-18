@@ -1,0 +1,22 @@
+{
+  "name": "ZQSwiftTools",
+  "version": "0.1.0",
+  "summary": "A short description of ZQSwiftTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/testing2007/ZQSwiftTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "testing2007": "weizhiqiang@itcast.cn"
+  },
+  "source": {
+    "git": "https://github.com/testing2007/ZQSwiftTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZQSwiftTools/Classes/**/*"
+}

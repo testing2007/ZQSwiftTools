@@ -1,0 +1,16 @@
+PODS:
+  - ZQSwiftTools (0.1.0)
+
+DEPENDENCIES:
+  - ZQSwiftTools (from `../`)
+
+EXTERNAL SOURCES:
+  ZQSwiftTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZQSwiftTools: 01f37eb7642df8b7ea562e9e3799c5d45850ed0d
+
+PODFILE CHECKSUM: 4deeb6660677f0454d3d44c8d2aea768bb2591da
+
+COCOAPODS: 1.9.3
